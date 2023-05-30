@@ -15,9 +15,11 @@ while quit == 0:
     type in 'exit' if you wish leave the program\n
     """ )
     if whatDoYouWant == 'graph households': 
-        df = pd.read_csv('data/Dragon Ball Z Full Ratings - Sheet1 (1).csv')
-        df.replace('N/A', np.nan, inplace=True)
-
+        try: 
+            df = pd.read_csv('data/Dragon Ball Z Full Ratings - Sheet1 (1).csv')
+            df.replace('N/A', np.nan, inplace=True)
+        except: 
+            print("Whoops") 
 
         df['Households'] = df['Households'].str.replace(',', '').astype(float)
 

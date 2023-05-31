@@ -2,6 +2,7 @@
 An archive of DBZ Toonami ratings
 
 Steps to start the program. 
+
 1.) First go to https://download-directory.github.io/ and copy-paste the URL data folder link to the box(https://github.com/Titojustchilling/DBZ-Toonami-Ratings/tree/main/data.)
 
 2.) Extract the CSV files to a new folder called 'Data'

@@ -7,8 +7,8 @@ Steps to start the program.
 
 2.) Extract the CSV files to a new folder called 'Data'
 
-3.) Download the main.py file and put it in the same file as 'Data'
+3.) Download the main.py file and put it in the same folder as 'Data'
 
-4.) Open up the command prompt on your computer. copy and paste the local path/directory of the file to the command prompt. Make sure to do cd <local path here> on the command prompt.
+4.) Open up the command prompt on your computer. copy and paste the local path/directory of the file to the command prompt. Make sure to do cd <local path here> on the command prompt. Then, press enter.
  
 5.) Type in main.py in the command prompt and you all set.
